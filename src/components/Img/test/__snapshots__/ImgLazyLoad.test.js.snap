@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) ImgLazyLoad Should render component properly - with default properties 1`] = `
+<LazyLoad
+  height="100%"
+  offset={100}
+  once={true}
+  overflow={false}
+  resize={false}
+  scroll={true}
+  throttle={100}
+  unmountIfInvisible={false}
+>
+  <_class />
+</LazyLoad>
+`;
+
+exports[`(Components) ImgLazyLoad Should render component properly - with given properties 1`] = `
+<LazyLoad
+  height={10}
+  offset={2}
+  once={true}
+  overflow={false}
+  resize={false}
+  scroll={true}
+  throttle={100}
+  unmountIfInvisible={false}
+>
+  <_class />
+</LazyLoad>
+`;

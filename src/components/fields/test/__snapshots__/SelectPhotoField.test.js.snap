@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) SelectPhotoField Should render component properly 1`] = `
+<div
+  className="selectPhotoWrap inlineStyles"
+>
+  <Dropzone
+    accept="image/*"
+    disableClick={false}
+    disablePreview={false}
+    maxSize={Infinity}
+    minSize={0}
+    multiple={false}
+    onDrop={[Function]}
+    preventDropOnDocument={true}
+  >
+    <button
+      className="btn btn-default btn-block"
+      type="button"
+    >
+      Change 
+      label
+    </button>
+    <div
+      className="text-center text-muted"
+    >
+      Photo size 500x325px
+    </div>
+  </Dropzone>
+  <div
+    className="alert alert-danger m-t-1"
+    role="alert"
+  >
+    error!
+  </div>
+</div>
+`;
+
+exports[`(Components) SelectPhotoField Should render component properly without PreviewComponent 1`] = `
+<div
+  className="selectPhotoWrap inlineStyles"
+>
+  <mockConstructor
+    preview={false}
+  />
+  <Dropzone
+    accept="image/*"
+    disableClick={false}
+    disablePreview={false}
+    maxSize={Infinity}
+    minSize={0}
+    multiple={false}
+    onDrop={[Function]}
+    preventDropOnDocument={true}
+  >
+    <button
+      className="btn btn-primary btn-block"
+      type="button"
+    >
+      Upload 
+      label
+    </button>
+    <div
+      className="text-center text-muted"
+    >
+      Photo size 500x325px
+    </div>
+  </Dropzone>
+  <div
+    className="alert alert-danger m-t-1"
+    role="alert"
+  >
+    error!
+  </div>
+</div>
+`;

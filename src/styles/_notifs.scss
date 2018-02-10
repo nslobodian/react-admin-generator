@@ -1,0 +1,50 @@
+.notif {
+  margin: 5px 0;
+  font-family: inherit;
+  font-size: 1.5rem;
+  padding: 7px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  max-height: 400px;
+  box-sizing: border-box;
+  box-shadow: 0 0 1px 1px rgba(10, 10, 11, .125);
+  color: #fff;
+
+  &__container {
+    position: fixed;
+    margin: 0;
+    width: auto;
+    z-index: 1080;
+    top: 3%;
+    right: 3%;
+    left: inherit;
+    max-width: 400px;
+  }
+
+  &--success {
+    background-color: #64ce83;
+  }
+
+  &--danger {
+    background-color: #e74c3c;
+  }
+
+  &-transition-enter {
+    opacity: 0.01;
+    transition: opacity .5s ease-in;
+  }
+
+  &-transition-enter-active {
+    opacity: 1;
+  }
+
+  &-transition-leave {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+  }
+
+  &-transition-leave-active {
+    opacity: 0.01;
+  }
+}

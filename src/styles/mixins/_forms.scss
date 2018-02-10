@@ -1,0 +1,96 @@
+@mixin form-control {
+  display: block;
+  width: 100%;
+  height: $input-height-base; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
+  padding: $padding-base-vertical $padding-base-horizontal;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $input-color;
+  background-color: $input-bg;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: 1px solid $input-border;
+  border-radius: $input-border-radius; // Note: This has no effect on <select>s in some browsers, due to the limited stylability of <select>s in CSS.
+  @include transition(border-color ease-in-out .15s);
+
+  // Customize the `:focus` state to imitate native WebKit styles.
+  @include form-control-focus;
+
+  // Placeholder
+  @include placeholder;
+
+  // Unstyle the caret on `<select>`s in IE10+.
+  &::-ms-expand {
+    border: 0;
+    background-color: transparent;
+  }
+
+  // Disabled and read-only inputs
+  //
+  // HTML5 says that controls under a fieldset > legend:first-child won't be
+  // disabled if the fieldset is disabled. Due to implementation difficulty, we
+  // don't honor that edge case; we style them as disabled anyway.
+  &[disabled],
+  &[readonly],
+  fieldset[disabled] & {
+    background-color: $input-bg-disabled;
+    opacity: 1; // iOS fix for unreadable disabled content; see https://github.com/twbs/bootstrap/issues/11655
+  }
+
+  &[disabled],
+  fieldset[disabled] & {
+    cursor: $cursor-disabled;
+  }
+
+  &[disabled] {
+    color: #8a8d8f;
+  }
+
+  &.valid {
+    border-color: $brandGreen;
+  }
+
+  &.hasError {
+    border-color: $brandRed;
+  }
+}
+
+@mixin form-group {
+  text-align: left;
+  margin-bottom: $form-group-margin-bottom;
+
+  label {
+    font-size: 13px;
+    color: $gray-light;
+    text-align: center;
+    margin-bottom: 2px;
+  }
+
+  &.hasError {
+    label {
+      color: $brand-danger;
+    }
+
+    input {
+      border: 1px solid #ffccd2;
+      position: relative;
+      z-index: 2;
+    }
+
+    .errorMsg {
+      background-color: #ffccd2;
+      border-radius: 0 0 6px 6px;
+      padding: 20px 10px 10px;
+      font-size: 12px;
+      font-weight: 700;
+      color: $brand-danger;
+
+      position: relative;
+      top: -10px;
+      z-index: 0;
+    }
+  }
+
+  .error {
+    color: $brand-danger;
+  }
+}

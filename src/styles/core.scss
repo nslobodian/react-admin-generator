@@ -1,0 +1,316 @@
+:global {
+  @import '~normalize.css/normalize';
+  @import 'bootstrap';
+  @import 'badge';
+  @import 'typo';
+
+  .pagination {
+    margin: 0;
+  }
+
+  .table {
+    margin-bottom: 0;
+    @include top-bottom-border;
+
+    thead {
+      tr:first-of-type {
+        background-color: #f5f5f5;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .react-spinner {
+    position: absolute !important;
+    z-index: 3;
+  }
+  .react-spinner_bar {
+    background-color: black !important;
+  }
+
+  .form-control[readonly] {
+    background-color: #fff !important;
+  }
+
+  .table-responsive {
+    min-height: 250px;
+  }
+
+  .rc-tabs-content-animated {
+    transition: none !important;
+  }
+
+  .onlyCloseButton {
+    .modal-header {
+      position: relative;
+      padding: 0;
+      margin-bottom: -5px;
+      border: none;
+
+      .close {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        z-index: 2;
+      }
+    }
+  }
+
+  .smallPagination {
+    padding: 5px 10px !important;
+  }
+
+  .alert {
+    margin-bottom: 0 !important;
+  }
+
+  .vis-item {
+    color: white !important;
+    background-color: $brand-primary !important;
+    border-color: $gray-darker !important;
+    border-radius: 20px !important;
+  }
+
+  .vis-selected {
+    background-color: darken($brand-primary, 20%) !important;
+  }
+
+  .vis-delete {
+    right: 20px !important;
+    z-index: 2;
+
+    &:hover {
+      background-color: transparent !important;
+      &:after {
+        color: red !important;
+      }
+    }
+
+    &:after {
+      color: white !important;
+    }
+  }
+
+  .rc-tabs-bar {
+    padding: 15px;
+    margin-bottom: 10px;
+
+    .rc-tabs-tab {
+      @include button-variant(#333, #fff, #fff);
+      @include button-size(8px, 12px, 14px, 24px, 5px);
+    }
+
+    .rc-tabs-tab-active, .rc-tabs-tab:hover {
+      @include button-variant(#fff, $brand-primary, $brand-primary);
+      @include button-size(8px, 12px, 14px, 24px, 5px);
+    }
+  }
+
+  .Select-menu-outer {
+    min-width: 100px;
+  }
+
+  .loadingBar {
+    background-color: $brand-primary;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    height: 5px;
+    z-index: 2;
+  }
+
+  .rst__rowTitle {
+    color: $gray;
+  }
+}
+
+@import 'shared';
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+table {
+  td {
+    vertical-align: middle !important;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.flex {
+  display: flex;
+
+  > * {
+    min-width: 0;
+  }
+
+  &-center {
+    justify-content: center;
+    align-items: center;
+
+    &-x {
+      justify-content: center;
+    }
+
+    &-y {
+      align-items: center;
+    }
+  }
+
+  &-column {
+    flex-direction: column;
+  }
+
+  &-space-between {
+    justify-content: space-between;
+  }
+
+  &-end {
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    &-x {
+      justify-content: flex-end;
+    }
+
+    &-y {
+      align-items: flex-end;
+    }
+  }
+
+  &-start {
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    &-x {
+      justify-content: flex-start;
+    }
+
+    &-y {
+      align-items: flex-start;
+    }
+  }
+
+  &-wrap {
+    flex-wrap: wrap;
+  }
+
+  @for $i from 1 through 12 {
+    &-#{$i} {
+      flex: $i;
+    }
+  }
+}
+
+.td- {
+  &xs {
+    min-width: 50px;
+  }
+  &sm {
+    min-width: 90px;
+  }
+  &md {
+    min-width: 140px;
+  }
+}
+
+.EditButton {
+  @include link-variant($link-color);
+  text-align: right;
+}
+
+.CloseButton {
+  fill: $brandRed;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.border- {
+  &right {
+    border-right: 1px solid #ddd;
+  }
+
+  &bottom {
+    border-bottom: 1px solid #ddd;
+  }
+
+  &top {
+    border-top: 1px solid #ddd;
+  }
+}
+
+.radio-custom {
+  opacity: 0;
+  position: absolute;
+
+  & + label {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  & + label:before {
+    content: '';
+    background: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  &:checked + label:before {
+    background: #666;
+    box-shadow: inset 0 0 0 3px #fff;
+  }
+
+  &:focus + label {
+    outline: 1px solid #ddd; /* focus style */
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.truncate {
+  display: inline-block;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &:hover {
+    overflow: visible;
+    white-space: normal;
+    width: auto;
+  }
+}
+
+.btn-link-danger {
+  color: $brand-danger !important;
+}
+
+.noTitleSortableTree {
+  .rst__rowLabel {
+    display: none;
+  }
+}

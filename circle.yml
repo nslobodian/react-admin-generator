@@ -1,0 +1,39 @@
+machine:
+  python:
+    version: 2.7.10
+
+general:
+  branches:
+    only:
+      - develop
+      - staging
+      - master
+
+dependencies:
+  cache_directories:
+    - ./ansible/external-roles
+  pre:
+    - git clone git@github.com:herlandia/herlandia-config.git
+    - pip install ansible==2.0.2
+    - pip install --upgrade setuptools
+    - ansible-galaxy install -r herlandia-config/ansible/requirements.yml --roles-path ./ansible/external-roles
+  override:
+    - echo "Ignore CircleCI defaults"
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - ./herlandia-config/deploy production admin-webapp
+  staging:
+    branch: staging
+    commands:
+      - ./herlandia-config/deploy staging admin-webapp
+  develop:
+    branch: develop
+    commands:
+      - ./herlandia-config/deploy develop admin-webapp
+
+test:
+  override:
+    - echo "Ignore CircleCI defaults"

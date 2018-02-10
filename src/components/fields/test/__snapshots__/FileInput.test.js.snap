@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) FileInput Should render component properly 1`] = `
+<_class
+  clearValue={[Function]}
+  disabled={true}
+  handleUploading={[Function]}
+  input={
+    Object {
+      "value": Object {
+        "preview": "preview",
+      },
+    }
+  }
+  meta={
+    Object {
+      "error": "error",
+      "invalid": "invalid",
+      "submitFailed": [Function],
+    }
+  }
+  updateUploaded={[Function]}
+  uploaded={false}
+  withPreview={true}
+/>
+`;

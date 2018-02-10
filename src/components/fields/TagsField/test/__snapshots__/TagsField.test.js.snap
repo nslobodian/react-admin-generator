@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) TagsField Should render component properly 1`] = `
+<div
+  className="form-group"
+>
+  <div
+    className="text-muted clearfix"
+  >
+    <div
+      className="pull-left"
+    >
+      Tags
+    </div>
+    <div
+      className="pull-right"
+    >
+      manage tags 
+      <span
+        className="manageTagsLink"
+        onClick={[Function]}
+      >
+        here
+      </span>
+    </div>
+  </div>
+  <Field
+    component={[Function]}
+    labelKey="name"
+    multi={true}
+    name="tags"
+    options={Array []}
+    valueKey="notificationTagId"
+  />
+  <Connect(Connect(ConnectModal(SelectProductModalWrapper))) />
+</div>
+`;

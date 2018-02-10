@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) PaginationRow Should render DropdownWrapper properly with dropdownConfig 1`] = `
+<Select
+  addLabelText="Add \\"{label}\\"?"
+  arrowRenderer={[Function]}
+  autosize={true}
+  backspaceRemoves={true}
+  backspaceToRemoveMessage="Press backspace to remove {label}"
+  clearAllText="Clear all"
+  clearRenderer={[Function]}
+  clearValueText="Clear value"
+  clearable={false}
+  deleteRemoves={true}
+  delimiter=","
+  disabled={false}
+  escapeClearsValue={true}
+  filterOptions={[Function]}
+  ignoreAccents={true}
+  ignoreCase={true}
+  inputProps={Object {}}
+  isLoading={false}
+  joinValues={false}
+  labelKey="label"
+  matchPos="any"
+  matchProp="any"
+  menuBuffer={0}
+  menuRenderer={[Function]}
+  multi={false}
+  noResultsText="No results found"
+  onBlurResetsInput={true}
+  onChange={[Function]}
+  onCloseResetsInput={true}
+  optionComponent={[Function]}
+  options={
+    Array [
+      Object {
+        "labelKey": "labelKey",
+        "valueKey": "valueKey",
+      },
+    ]
+  }
+  pageSize={5}
+  placeholder="Select..."
+  required={false}
+  scrollMenuIntoView={true}
+  searchable={true}
+  simpleValue={false}
+  tabSelectsValue={true}
+  value="value"
+  valueComponent={[Function]}
+  valueKey="value"
+/>
+`;
+
+exports[`(Components) PaginationRow Should render DropdownWrapper properly without dropdownConfig 1`] = `
+<Select
+  addLabelText="Add \\"{label}\\"?"
+  arrowRenderer={[Function]}
+  autosize={true}
+  backspaceRemoves={true}
+  backspaceToRemoveMessage="Press backspace to remove {label}"
+  clearAllText="Clear all"
+  clearRenderer={[Function]}
+  clearValueText="Clear value"
+  clearable={false}
+  deleteRemoves={true}
+  delimiter=","
+  disabled={false}
+  escapeClearsValue={true}
+  filterOptions={[Function]}
+  ignoreAccents={true}
+  ignoreCase={true}
+  inputProps={Object {}}
+  isLoading={false}
+  joinValues={false}
+  labelKey="label"
+  matchPos="any"
+  matchProp="any"
+  menuBuffer={0}
+  menuRenderer={[Function]}
+  multi={false}
+  noResultsText="No results found"
+  onBlurResetsInput={true}
+  onChange={[Function]}
+  onCloseResetsInput={true}
+  optionComponent={[Function]}
+  options={
+    Array [
+      Object {
+        "filter": [Function],
+      },
+    ]
+  }
+  pageSize={5}
+  placeholder="Select..."
+  required={false}
+  scrollMenuIntoView={true}
+  searchable={true}
+  simpleValue={false}
+  tabSelectsValue={true}
+  value="value"
+  valueComponent={[Function]}
+  valueKey="value"
+/>
+`;
+
+exports[`(Components) PaginationRow Should render PaginationRow properly 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-sm-3 col-xs-6"
+  >
+    <div
+      className="additionalComponentWrapper"
+    >
+      <_class
+        dropdownConfig={
+          Array [
+            Object {
+              "filter": [Function],
+            },
+          ]
+        }
+        options={
+          Array [
+            Object {
+              "labelKey": "labelKey",
+              "valueKey": "valueKey",
+            },
+          ]
+        }
+        toggleChangeHandle={[Function]}
+        value={true}
+      />
+    </div>
+  </div>
+  <div
+    className="col-lg-6 col-sm-4 col-xs-6"
+  >
+    <_class
+      label="label"
+      onChangeFilter={[Function]}
+      perPage={10}
+      short={false}
+      total={1}
+    />
+  </div>
+  <div
+    className="col-lg-3 col-sm-5 col-xs-12"
+  >
+    <div
+      className="Pagination"
+    >
+      <Pagination
+        activePage={1}
+        firstPageText="«"
+        innerClass="pagination"
+        itemsCountPerPage={10}
+        lastPageText="»"
+        linkClass=""
+        nextPageText="⟩"
+        onChange={[Function]}
+        pageRangeDisplayed={5}
+        prevPageText="⟨"
+        totalItemsCount={1}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Components) PaginationRow Should render PaginationRow properly with no options and short === false 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-lg-6 col-sm-4 col-xs-6"
+  >
+    <_class
+      label="label"
+      onChangeFilter={[Function]}
+      perPage={10}
+      short={false}
+      total={1}
+    />
+  </div>
+  <div
+    className="col-lg-6 col-sm-8 col-xs-12"
+  >
+    <div
+      className="Pagination"
+    >
+      <Pagination
+        activePage={1}
+        firstPageText="«"
+        innerClass="pagination"
+        itemsCountPerPage={10}
+        lastPageText="»"
+        linkClass=""
+        nextPageText="⟩"
+        onChange={[Function]}
+        pageRangeDisplayed={5}
+        prevPageText="⟨"
+        totalItemsCount={1}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`(Components) PaginationRow Should render PaginationRow properly with opposite values 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-lg-6 col-sm-6 col-xs-6"
+  >
+    <_class
+      label="label"
+      onChangeFilter={[Function]}
+      perPage={10}
+      short={true}
+      total={1}
+    />
+  </div>
+  <div
+    className="col-lg-6 col-sm-6 col-xs-12"
+  >
+    <div
+      className="Pagination"
+    >
+      <Pagination
+        activePage={1}
+        firstPageText="«"
+        innerClass="pagination"
+        itemsCountPerPage={10}
+        lastPageText="»"
+        linkClass="smallPagination"
+        nextPageText="⟩"
+        onChange={[Function]}
+        pageRangeDisplayed={2}
+        prevPageText="⟨"
+        totalItemsCount={1}
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) Header Should render component properly - default 1`] = `
+<_class
+  changeCollapsedStatus={[Function]}
+  collapse={false}
+  loggedIn={true}
+  logout={[Function]}
+  resetCreatePurchaseOrder={[Function]}
+  toggleStatus={[Function]}
+  username="Username"
+/>
+`;
+
+exports[`(Components) Header Should render component properly - default 2`] = `
+<li
+  collapse={true}
+  loggedIn={true}
+  logout={[Function]}
+  onClick={[Function]}
+  resetCreatePurchaseOrder={[Function]}
+  toggleStatus={[Function]}
+  username="Username"
+/>
+`;

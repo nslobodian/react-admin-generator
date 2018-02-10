@@ -1,0 +1,327 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) CountFilter Should render Component properly 1`] = `
+<_class
+  label="label"
+  onChangeFilter={[Function]}
+  perPage={[Function]}
+  short={true}
+  total={1}
+>
+  <div
+    className="CountFilter"
+  >
+    <span>
+      Showing
+    </span>
+    <_class
+      onChangeFilter={[Function]}
+      options={
+        Array [
+          Object {
+            "label": 10,
+            "value": 10,
+          },
+          Object {
+            "label": 25,
+            "value": 25,
+          },
+          Object {
+            "label": 50,
+            "value": 50,
+          },
+          Object {
+            "label": 100,
+            "value": 100,
+          },
+        ]
+      }
+      perPage={[Function]}
+    >
+      <Select
+        addLabelText="Add \\"{label}\\"?"
+        arrowRenderer={[Function]}
+        autosize={true}
+        backspaceRemoves={true}
+        backspaceToRemoveMessage="Press backspace to remove {label}"
+        clearAllText="Clear all"
+        clearRenderer={[Function]}
+        clearValueText="Clear value"
+        clearable={false}
+        deleteRemoves={true}
+        delimiter=","
+        disabled={false}
+        escapeClearsValue={true}
+        filterOptions={[Function]}
+        ignoreAccents={true}
+        ignoreCase={true}
+        inputProps={Object {}}
+        isLoading={false}
+        joinValues={false}
+        labelKey="label"
+        matchPos="any"
+        matchProp="any"
+        menuBuffer={0}
+        menuRenderer={[Function]}
+        multi={false}
+        noResultsText="No results found"
+        onBlurResetsInput={true}
+        onChange={[Function]}
+        onCloseResetsInput={true}
+        optionComponent={[Function]}
+        options={
+          Array [
+            Object {
+              "label": 10,
+              "value": 10,
+            },
+            Object {
+              "label": 25,
+              "value": 25,
+            },
+            Object {
+              "label": 50,
+              "value": 50,
+            },
+            Object {
+              "label": 100,
+              "value": 100,
+            },
+          ]
+        }
+        pageSize={5}
+        placeholder="Select..."
+        required={false}
+        scrollMenuIntoView={true}
+        searchable={false}
+        simpleValue={false}
+        tabSelectsValue={true}
+        value={
+          Object {
+            "label": [Function],
+          }
+        }
+        valueComponent={[Function]}
+        valueKey="value"
+      >
+        <div
+          className="Select Select--single has-value"
+        >
+          <div
+            className="Select-control"
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+          >
+            <span
+              className="Select-multi-value-wrapper"
+              id="react-select-3--value"
+            >
+              <Value
+                disabled={false}
+                id="react-select-3--value-item"
+                instancePrefix="react-select-3-"
+                onClick={null}
+                value={
+                  Object {
+                    "label": [Function],
+                  }
+                }
+              >
+                <div
+                  className="Select-value"
+                >
+                  <span
+                    aria-selected="true"
+                    className="Select-value-label"
+                    id="react-select-3--value-item"
+                    role="option"
+                  />
+                </div>
+              </Value>
+              <div
+                aria-activedescendant="react-select-3--value"
+                aria-expanded={false}
+                aria-owns=""
+                aria-readonly="false"
+                className="Select-input"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                role="combobox"
+                style={
+                  Object {
+                    "border": 0,
+                    "display": "inline-block",
+                    "width": 1,
+                  }
+                }
+                tabIndex={0}
+              />
+            </span>
+            <span
+              className="Select-arrow-zone"
+              onMouseDown={[Function]}
+            >
+              <span
+                className="Select-arrow"
+                onMouseDown={[Function]}
+              />
+            </span>
+          </div>
+        </div>
+      </Select>
+    </_class>
+  </div>
+</_class>
+`;
+
+exports[`(Components) CountFilter Should render DropdownWrapper properly 1`] = `
+<_class
+  onChangeFilter={[Function]}
+  options={
+    Array [
+      Object {
+        "filter": [Function],
+      },
+    ]
+  }
+  perPage={[Function]}
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={false}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={Object {}}
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    optionComponent={[Function]}
+    options={
+      Array [
+        Object {
+          "label": 10,
+          "value": 10,
+        },
+        Object {
+          "label": 25,
+          "value": 25,
+        },
+        Object {
+          "label": 50,
+          "value": 50,
+        },
+        Object {
+          "label": 100,
+          "value": 100,
+        },
+      ]
+    }
+    pageSize={5}
+    placeholder="Select..."
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={false}
+    simpleValue={false}
+    tabSelectsValue={true}
+    value={
+      Object {
+        "label": [Function],
+      }
+    }
+    valueComponent={[Function]}
+    valueKey="value"
+  >
+    <div
+      className="Select Select--single has-value"
+    >
+      <div
+        className="Select-control"
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+      >
+        <span
+          className="Select-multi-value-wrapper"
+          id="react-select-2--value"
+        >
+          <Value
+            disabled={false}
+            id="react-select-2--value-item"
+            instancePrefix="react-select-2-"
+            onClick={null}
+            value={
+              Object {
+                "label": [Function],
+              }
+            }
+          >
+            <div
+              className="Select-value"
+            >
+              <span
+                aria-selected="true"
+                className="Select-value-label"
+                id="react-select-2--value-item"
+                role="option"
+              />
+            </div>
+          </Value>
+          <div
+            aria-activedescendant="react-select-2--value"
+            aria-expanded={false}
+            aria-owns=""
+            aria-readonly="false"
+            className="Select-input"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            role="combobox"
+            style={
+              Object {
+                "border": 0,
+                "display": "inline-block",
+                "width": 1,
+              }
+            }
+            tabIndex={0}
+          />
+        </span>
+        <span
+          className="Select-arrow-zone"
+          onMouseDown={[Function]}
+        >
+          <span
+            className="Select-arrow"
+            onMouseDown={[Function]}
+          />
+        </span>
+      </div>
+    </div>
+  </Select>
+</_class>
+`;

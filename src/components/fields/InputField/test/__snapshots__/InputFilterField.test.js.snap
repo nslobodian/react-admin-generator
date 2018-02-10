@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) InputFilterField Should render component properly 1`] = `
+<_class
+  className="className"
+  debounce={null}
+  handleChange={
+    Object {
+      "changeAttempt": [Function],
+      "clearTimeout": [Function],
+      "setDebounce": Object {
+        "setTimeout": [Function],
+      },
+    }
+  }
+  input={
+    Object {
+      "name": "name",
+      "onBlur": [Function],
+      "onChange": [Function],
+      "value": 1,
+    }
+  }
+  setDebounce={[Function]}
+/>
+`;

@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) TranslationField Should render TranslationField properly 1`] = `
+<div
+  className="TranslationField"
+>
+  <FormSection
+    component="div"
+    name="name"
+  >
+    <Field
+      component={[Function]}
+      countries={
+        Array [
+          Object {
+            "currency": "EUR",
+            "inde": 0,
+            "language": Object {
+              "code": "abc",
+              "required": false,
+            },
+          },
+        ]
+      }
+      innerWrap={true}
+      name=""
+      needCode={false}
+    />
+  </FormSection>
+</div>
+`;
+
+exports[`(Components) TranslationField Should render TranslationField properly without some attributes 1`] = `
+<div
+  className="TranslationField"
+>
+  <Field
+    component={[Function]}
+    countries={
+      Array [
+        Object {
+          "currency": "EUR",
+          "inde": 0,
+          "language": Object {
+            "code": "abc",
+            "required": false,
+          },
+        },
+      ]
+    }
+    innerWrap={true}
+    name="tabKey"
+    needCode={true}
+  />
+</div>
+`;
+
+exports[`(Components) TranslationField Should render component properly 1`] = `
+<Tabs
+  activeKey="sk"
+  destroyInactiveTabPane={false}
+  onChange={[Function]}
+  prefixCls="rc-tabs"
+  renderTabBar={[Function]}
+  renderTabContent={[Function]}
+  style={Object {}}
+  tabBarPosition="top"
+>
+  <TabPane
+    placeholder={null}
+    tab="ABC *"
+  >
+    <undefined
+      code="abc"
+    />
+  </TabPane>
+</Tabs>
+`;
+
+exports[`(Components) TranslationField Should render component properly without some attribues 1`] = `
+<Tabs
+  activeKey="sk"
+  destroyInactiveTabPane={false}
+  onChange={[Function]}
+  prefixCls="rc-tabs"
+  renderTabBar={[Function]}
+  renderTabContent={[Function]}
+  style={Object {}}
+  tabBarPosition="top"
+>
+  <TabPane
+    placeholder={null}
+    tab="ABC "
+  >
+    <FormSection
+      component="div"
+      name="abc"
+      required={false}
+    />
+  </TabPane>
+</Tabs>
+`;
+
+exports[`(Components) TranslationField Should render component properly without some attribues more 1`] = `
+<Tabs
+  activeKey="sk"
+  destroyInactiveTabPane={false}
+  onChange={[Function]}
+  prefixCls="rc-tabs"
+  renderTabBar={[Function]}
+  renderTabContent={[Function]}
+  style={Object {}}
+  tabBarPosition="top"
+>
+  <TabPane
+    placeholder={null}
+    tab="ABC "
+  >
+    <FormSection
+      component="div"
+      name="abc"
+      required={false}
+    >
+      <undefined
+        code="abc"
+      />
+    </FormSection>
+  </TabPane>
+</Tabs>
+`;
+
+exports[`(Components) TranslationField Should render component properly without some attribues more more 1`] = `
+<Tabs
+  activeKey="sk"
+  destroyInactiveTabPane={false}
+  onChange={[Function]}
+  prefixCls="rc-tabs"
+  renderTabBar={[Function]}
+  renderTabContent={[Function]}
+  style={Object {}}
+  tabBarPosition="top"
+>
+  <TabPane
+    placeholder={null}
+    tab="ABC "
+  />
+</Tabs>
+`;

@@ -1,0 +1,27 @@
+.ManageTagsModal {
+  .modalHeader {
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .NewTagWrapper {
+    width: 70%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .TagsTableWrapper {
+    td + td {
+      width: 30px;
+    }
+
+    .name {
+      padding-left: 10px;
+      margin-bottom: 0;
+      font-weight: 400;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) RangeDatePicker Should render component properly 1`] = `
+<Component
+  customOnChange={[Function]}
+  customTrigger={false}
+  input={
+    Object {
+      "name": "Name",
+      "onChange": [Function],
+      "value": Object {
+        "endDate": Object {
+          "format": [Function],
+        },
+        "startDate": Object {
+          "format": [Function],
+        },
+      },
+    }
+  }
+  meta={
+    Object {
+      "invalid": true,
+      "touched": true,
+    }
+  }
+  placeholder="Any time"
+  singleDatePicker={false}
+>
+  <div
+    className="DatetimeRangePicker"
+  >
+    <div
+      className="SVGWrapper"
+    >
+      <FaClose
+        className="FaClose"
+        onClick={[Function]}
+      >
+        <IconBase
+          className="FaClose"
+          onClick={[Function]}
+          viewBox="0 0 40 40"
+        >
+          <svg
+            className="FaClose"
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em"
+          >
+            <g>
+              <path
+                d="m33.5 29.5q0 0.9-0.7 1.5l-3 3.1q-0.6 0.6-1.5 0.6t-1.5-0.6l-6.6-6.6-6.5 6.6q-0.7 0.6-1.6 0.6t-1.5-0.6l-3-3.1q-0.6-0.6-0.6-1.5t0.6-1.5l6.5-6.6-6.5-6.5q-0.6-0.7-0.6-1.6t0.6-1.5l3-3q0.6-0.6 1.5-0.6t1.6 0.6l6.5 6.6 6.6-6.6q0.6-0.6 1.5-0.6t1.5 0.6l3.1 3q0.6 0.7 0.6 1.5t-0.6 1.6l-6.6 6.5 6.6 6.6q0.6 0.6 0.6 1.5z"
+              />
+            </g>
+          </svg>
+        </IconBase>
+      </FaClose>
+      <FaClockO
+        className="FaClockO"
+      >
+        <IconBase
+          className="FaClockO"
+          viewBox="0 0 40 40"
+        >
+          <svg
+            className="FaClockO"
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em"
+          >
+            <g>
+              <path
+                d="m23 12.1v10q0 0.4-0.2 0.6t-0.5 0.2h-7.2q-0.3 0-0.5-0.2t-0.2-0.6v-1.4q0-0.3 0.2-0.5t0.5-0.2h5v-7.9q0-0.3 0.2-0.5t0.6-0.2h1.4q0.3 0 0.5 0.2t0.2 0.5z m9.3 7.9q0-3.3-1.6-6.1t-4.5-4.4-6.1-1.6-6.1 1.6-4.4 4.4-1.6 6.1 1.6 6.1 4.4 4.4 6.1 1.6 6.1-1.6 4.5-4.4 1.6-6.1z m5 0q0 4.7-2.3 8.6t-6.3 6.2-8.6 2.3-8.6-2.3-6.2-6.2-2.3-8.6 2.3-8.6 6.2-6.2 8.6-2.3 8.6 2.3 6.3 6.2 2.3 8.6z"
+              />
+            </g>
+          </svg>
+        </IconBase>
+      </FaClockO>
+    </div>
+    <DatetimeRangePicker
+      endDate={"2017-09-13T22:00:00.000Z"}
+      onApply={[Function]}
+      showDropdowns={true}
+      singleDatePicker={false}
+      startDate={"2017-09-13T22:00:00.000Z"}
+      timePicker={true}
+      timePicker24Hour={true}
+      timePickerSeconds={true}
+    >
+      <div>
+        <div
+          className="ButtonWrapper"
+        >
+          <div />
+          <div />
+        </div>
+      </div>
+    </DatetimeRangePicker>
+    <div
+      className="alert alert-danger m-t-1"
+      role="alert"
+    >
+      Name
+       is required
+    </div>
+  </div>
+</Component>
+`;
+
+exports[`(Components) RangeDatePicker Should render component properly without singleDatePicker & placeholder & startDate 1`] = `
+<Component
+  customOnChange={[Function]}
+  customTrigger={false}
+  input={
+    Object {
+      "name": "Name",
+      "onChange": [Function],
+      "value": Object {
+        "endDate": Object {
+          "format": [Function],
+        },
+      },
+    }
+  }
+  meta={
+    Object {
+      "invalid": true,
+      "touched": true,
+    }
+  }
+>
+  <div
+    className="DatetimeRangePicker"
+  >
+    <div
+      className="SVGWrapper"
+    >
+      <FaClockO>
+        <IconBase
+          viewBox="0 0 40 40"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": undefined,
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em"
+          >
+            <g>
+              <path
+                d="m23 12.1v10q0 0.4-0.2 0.6t-0.5 0.2h-7.2q-0.3 0-0.5-0.2t-0.2-0.6v-1.4q0-0.3 0.2-0.5t0.5-0.2h5v-7.9q0-0.3 0.2-0.5t0.6-0.2h1.4q0.3 0 0.5 0.2t0.2 0.5z m9.3 7.9q0-3.3-1.6-6.1t-4.5-4.4-6.1-1.6-6.1 1.6-4.4 4.4-1.6 6.1 1.6 6.1 4.4 4.4 6.1 1.6 6.1-1.6 4.5-4.4 1.6-6.1z m5 0q0 4.7-2.3 8.6t-6.3 6.2-8.6 2.3-8.6-2.3-6.2-6.2-2.3-8.6 2.3-8.6 6.2-6.2 8.6-2.3 8.6 2.3 6.3 6.2 2.3 8.6z"
+              />
+            </g>
+          </svg>
+        </IconBase>
+      </FaClockO>
+    </div>
+    <DatetimeRangePicker
+      endDate={"2017-09-13T22:00:00.000Z"}
+      onApply={[Function]}
+      showDropdowns={true}
+      singleDatePicker={false}
+      startDate={"2017-09-14T08:53:31.686Z"}
+      timePicker={true}
+      timePicker24Hour={true}
+      timePickerSeconds={true}
+    >
+      <div>
+        <div
+          className="ButtonWrapper"
+        >
+          <div>
+            Any time
+          </div>
+        </div>
+      </div>
+    </DatetimeRangePicker>
+    <div
+      className="alert alert-danger m-t-1"
+      role="alert"
+    >
+      Name
+       is required
+    </div>
+  </div>
+</Component>
+`;

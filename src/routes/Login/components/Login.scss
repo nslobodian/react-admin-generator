@@ -1,0 +1,16 @@
+@import '~styles/shared';
+
+.Login {
+  height: 100vh;
+  padding: 20%;
+  margin: 0 -15px;
+  background-color: $jumbotron-bg;
+
+  .formWrapper {
+    margin: 0 auto;
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+}

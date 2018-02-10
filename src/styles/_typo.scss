@@ -1,0 +1,153 @@
+$font-weight-light: 300;
+$text-color-standard: #616365;
+
+$font-roboto: 'roboto', $font-family-serif;
+
+.font-serif {
+  font-family: $font-family-serif;
+}
+
+a {
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+//.text-white {
+//  color: #fff;
+//}
+
+//.link-white {
+//  @include link-variant(#fff);
+//}
+
+.text-gray {
+  color: $gray;
+}
+
+.text-light-gray {
+  color: $gray-light;
+}
+
+.text-color-standard {
+  color: $text-color-standard;
+}
+
+.text-danger {
+  color: $brand-danger;
+}
+
+.text-success {
+  color: $brand-success;
+}
+
+//.text-green {
+//  color: #33be5e;
+//}
+
+//.link-light-gray {
+//  @include link-variant($gray-light);
+//}
+
+//.main-title {
+//  font-size: 24px;
+//  color: $text-color-standard;
+//  font-weight: $font-weight-light;
+//  margin-bottom: 35px;
+//}
+
+.form-title-lg, .form-title {
+  font-weight: $font-weight-light;
+}
+
+
+
+
+//.header-small-title {
+//  font-size: 10px;
+//  padding: 15px 10px;
+//  letter-spacing: 1px;
+//}
+
+@mixin text-muted {
+  color: $gray-light;
+}
+
+@mixin content-divider {
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  span {
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    letter-spacing: 2px;
+
+    &:after, &:before {
+      position: absolute;
+      content: '';
+      top: 50%;
+      transform: translateY(-50%);
+      width: 2000px;
+      background-color: rgba(255, 255, 255, .20);
+      height: 1px;
+    }
+
+    &:after {
+      right: 110%;
+    }
+
+    &:before {
+      left: 110%;
+    }
+  }
+}
+
+@mixin form-divider {
+  display: block;
+  height: 10px;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin: 26px -40px 20px;
+  overflow: hidden;
+
+  span, &:after {
+    position: absolute;
+    top: 50%;
+  }
+
+  span {
+    display: inline-block;
+    padding: 1px 3px;
+    background-color: #fff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    color: $gray-light;
+    text-transform: uppercase;
+  }
+
+  &:after {
+    content: '';
+    width: 1000px;
+    height: 1px;
+    background-color: #f3f3f3;
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 2;
+  }
+}
+
+.font-size-25 {
+  font-size: 25px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-9 {
+  font-size: 9px;
+}

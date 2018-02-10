@@ -1,0 +1,16 @@
+@mixin modal-close-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 35px;
+  height: 35px;
+
+  svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 13px;
+    height: 13px;
+    fill: $brandRed;
+  }
+}

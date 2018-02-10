@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) ManageTagsModal EditTagNameField 1`] = `
+<_class
+  deleteTag={[Function]}
+  name="name"
+  notificationTagId={1}
+  open={false}
+  toggleStatus={[Function]}
+  updateTagName={[Function]}
+/>
+`;
+
+exports[`(Components) ManageTagsModal Should render component properly 1`] = `
+<div
+  className="ManageTagsModal"
+>
+  <div
+    className="modalHeader"
+  >
+    Manage Tags
+  </div>
+  <div>
+    <div
+      className="NewTagWrapper"
+    >
+      <div
+        className="text-muted"
+      >
+        New Tag
+      </div>
+      <Field
+        className="form-control"
+        component="input"
+        name="newTag"
+        type="text"
+      />
+    </div>
+    <button
+      className="btn btn-primary"
+      onClick={[Function]}
+      type="button"
+    >
+      Add
+    </button>
+  </div>
+  <div
+    className="TagsTableWrapper"
+  >
+    <table
+      className="table"
+    >
+      <thead>
+        <tr>
+          <td
+            colSpan="3"
+          >
+            Tags
+          </td>
+        </tr>
+        <tr>
+          <td
+            colSpan="3"
+          >
+            <Field
+              className="form-control"
+              component="input"
+              name="tagName"
+              onChange={[Function]}
+              placeholder="Filter"
+              type="text"
+            />
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <_class2
+          name="name"
+          notificationTagId={1}
+        />
+        <tr>
+          <td
+            className="text-center"
+            colSpan="3"
+          >
+            <Pagination
+              activePage={1}
+              firstPageText="«"
+              innerClass="pagination"
+              itemsCountPerPage={10}
+              lastPageText="»"
+              nextPageText="⟩"
+              onChange={[Function]}
+              pageRangeDisplayed={5}
+              prevPageText="⟨"
+              totalItemsCount={1}
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`(Components) ManageTagsModal Without notificationTags 1`] = `
+<div
+  className="ManageTagsModal"
+>
+  <div
+    className="modalHeader"
+  >
+    Manage Tags
+  </div>
+  <div>
+    <div
+      className="NewTagWrapper"
+    >
+      <div
+        className="text-muted"
+      >
+        New Tag
+      </div>
+      <Field
+        className="form-control"
+        component="input"
+        name="newTag"
+        type="text"
+      />
+    </div>
+    <button
+      className="btn btn-primary"
+      onClick={[Function]}
+      type="button"
+    >
+      Add
+    </button>
+  </div>
+  <div
+    className="TagsTableWrapper"
+  >
+    <table
+      className="table"
+    >
+      <thead>
+        <tr>
+          <td
+            colSpan="3"
+          >
+            Tags
+          </td>
+        </tr>
+        <tr>
+          <td
+            colSpan="3"
+          >
+            <Field
+              className="form-control"
+              component="input"
+              name="tagName"
+              onChange={[Function]}
+              placeholder="Filter"
+              type="text"
+            />
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td
+            className="text-center"
+            colSpan="3"
+          >
+            No Tags
+          </td>
+        </tr>
+        <tr>
+          <td
+            className="text-center"
+            colSpan="3"
+          >
+            <Pagination
+              activePage={1}
+              firstPageText="«"
+              innerClass="pagination"
+              itemsCountPerPage={10}
+              lastPageText="»"
+              nextPageText="⟩"
+              onChange={[Function]}
+              pageRangeDisplayed={5}
+              prevPageText="⟨"
+              totalItemsCount={0}
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

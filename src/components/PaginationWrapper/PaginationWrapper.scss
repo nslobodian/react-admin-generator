@@ -1,0 +1,32 @@
+.Pagination {
+  margin: 10px 0;
+}
+
+.CountFilter {
+  margin: 10px 0 10px 10px;
+
+  :global {
+    .Select {
+      position: relative;
+      display: inline-flex;
+      width: 60px;
+      margin: 0 10px;
+    }
+  }
+}
+
+.additionalComponentWrapper {
+  margin: 10px 0 10px 10px;
+
+  :global {
+    .Dropdown-control {
+      padding: 8px 25px 8px 10px;
+
+      .Dropdown-placeholder {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Route) UsersTable Should render component properly 1`] = `
+<div
+  className="col-xs-12"
+>
+  <div
+    className="table-responsive"
+  >
+    <table
+      className="table table-hover"
+    >
+      <thead>
+        <tr>
+          <td>
+            Username
+          </td>
+          <td>
+            First Name
+          </td>
+          <td>
+            Last Name
+          </td>
+          <td>
+            Email
+          </td>
+          <td>
+            Url
+          </td>
+          <td />
+        </tr>
+        <tr>
+          <td>
+            <Field
+              className="form-control"
+              component="input"
+              name="username"
+              onChange={[Function]}
+              placeholder="User Name"
+            />
+          </td>
+          <td>
+            <Field
+              className="form-control"
+              component="input"
+              name="name"
+              onChange={[Function]}
+              placeholder="First Name"
+            />
+          </td>
+          <td>
+            <Field
+              className="form-control"
+              component="input"
+              name="lastName"
+              onChange={[Function]}
+              placeholder="Last Name"
+            />
+          </td>
+          <td>
+            <Field
+              className="form-control"
+              component="input"
+              name="email"
+              onChange={[Function]}
+              placeholder="Email"
+            />
+          </td>
+          <td>
+            <Field
+              className="form-control"
+              component="input"
+              name="url"
+              onChange={[Function]}
+              placeholder="Url"
+            />
+          </td>
+          <td />
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Username
+          </td>
+          <td>
+            name
+          </td>
+          <td>
+            LastName
+          </td>
+          <td>
+            <a
+              href="email@dot.com"
+            >
+              email@dot.com
+            </a>
+          </td>
+          <td>
+            <a
+              href="//herlandia.com/google.com"
+              target="blank"
+            >
+              herlandia.com/google.com
+            </a>
+          </td>
+          <td>
+            <button
+              className="btn btn-primary"
+              onClick={[Function]}
+            >
+              Details
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Routes) Login Should render LoginForm properly 1`] = `
+<div
+  className="Login"
+>
+  <div
+    className="formWrapper"
+  >
+    <h4>
+      Herlandia Admin
+    </h4>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="alert alert-danger"
+        role="alert"
+      >
+        Incorrect 
+        <b>
+          Email
+        </b>
+         or 
+        <b>
+          Password
+        </b>
+      </div>
+      <div
+        className="form-group"
+      >
+        <div
+          className="input-group"
+        >
+          <span
+            className="input-group-addon"
+          >
+            <FaEnvelope />
+          </span>
+          <Field
+            className="form-control"
+            component="input"
+            name="email"
+            placeholder="Email"
+            type="email"
+          />
+        </div>
+      </div>
+      <div
+        className="form-group"
+      >
+        <div
+          className="input-group"
+        >
+          <span
+            className="input-group-addon"
+          >
+            <FaCertificate />
+          </span>
+          <Field
+            className="form-control"
+            component="input"
+            name="password"
+            placeholder="Password"
+            type="password"
+          />
+        </div>
+      </div>
+      <button
+        className="btn btn-success btn-block btn-lg"
+        disabled={[Function]}
+        type="submit"
+      >
+        Login
+      </button>
+    </form>
+  </div>
+</div>
+`;

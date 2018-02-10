@@ -1,0 +1,40 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "standard-react"
+  ],
+  "plugins": [
+    "babel",
+    "react",
+    "promise"
+  ],
+  "env": {
+    "browser" : true
+  },
+  "globals": {
+    "__DEV__"      : false,
+    "__TEST__"     : false,
+    "__PROD__"     : false,
+    "__COVERAGE__" : false
+  },
+  "rules": {
+    "react/prop-types": 0,
+    "comma-dangle": ["error", "always-multiline"],
+    "array-bracket-spacing": ["error", "never"],
+    "no-useless-escape": 0
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+    "overrides": [
+    {
+      "files": [ "bin/*.js", "lib/*.js" ],
+      "excludedFiles": "*.test.js",
+      "rules": {
+        "quotes": [ 2, "single" ]
+      }
+    }
+  ]
+}

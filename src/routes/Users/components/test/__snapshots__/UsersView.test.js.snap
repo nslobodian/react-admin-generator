@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Route) UsersView Should render component properly and unmount 1`] = `
+<div>
+  <div
+    className="panel panel-default"
+  >
+    <div
+      className="panel-heading"
+    >
+      Users
+    </div>
+    <Component />
+    <div>
+      <PaginationWrapper
+        handleChange={[Function]}
+        label="users"
+        page={1}
+        pages={1}
+        perPage={10}
+        totalCount={5}
+      >
+        <ReduxForm
+          goToUserDetails={[Function]}
+          handleChangeFilter={[Function]}
+          users={
+            Array [
+              Object {
+                "email": "email@dot.com",
+                "lastName": "LastName",
+                "name": "name",
+                "url": "google.com",
+                "userId": 1234,
+                "username": "Username",
+              },
+            ]
+          }
+        />
+      </PaginationWrapper>
+    </div>
+  </div>
+</div>
+`;

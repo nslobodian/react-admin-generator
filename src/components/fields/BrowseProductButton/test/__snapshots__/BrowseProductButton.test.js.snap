@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) BrowseProductButton Should render component properly 1`] = `
+<div>
+  <div
+    className="photoTwoButtonsWrapper"
+  >
+    <button
+      className="btn btn-primary className"
+      onClick={[Function]}
+      type="button"
+    >
+      Browse
+    </button>
+    <button
+      className="btn btn-danger className"
+      onClick={[Function]}
+      type="button"
+    >
+      Delete
+    </button>
+    <Connect(ConnectModal(SelectProductModalWrapper))
+      saveProduct={[Function]}
+    />
+  </div>
+  <div
+    className="alert alert-danger m-t-1"
+    role="alert"
+  >
+    error
+  </div>
+</div>
+`;

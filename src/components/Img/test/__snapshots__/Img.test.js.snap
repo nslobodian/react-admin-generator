@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) Placeholder Should render component properly 1`] = `
+<div
+  className={true}
+  style={
+    Object {
+      "backgroundColor": "rgba(placeholder)",
+    }
+  }
+/>
+`;
+
+exports[`(Components) Placeholder Should render component properly with type color 1`] = `
+<div
+  className="placeholderClassName"
+  style={
+    Object {
+      "backgroundColor": "rgba(placeholder)",
+      "minHeight": "100%",
+      "minWidth": "100%",
+    }
+  }
+/>
+`;
+
+exports[`(Components) Placeholder Should render component properly with type image 1`] = `
+<img
+  className="placeholderClassName"
+  src="placeholder"
+/>
+`;
+
+exports[`(Components) Placeholder Should render component properly with unmatching type 1`] = `null`;

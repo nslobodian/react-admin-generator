@@ -1,0 +1,19 @@
+@import '~styles/shared';
+
+.Dropdown {
+  button {
+    height: $input-height-base;
+
+    .caret {
+      margin-top: 5px
+    }
+  }
+}
+
+.multiValue {
+  :global {
+    .Select-value-label {
+      font-size: 9px;
+    }
+  }
+}

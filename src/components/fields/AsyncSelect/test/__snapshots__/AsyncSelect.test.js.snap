@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) AsyncSelect Should render component properly 1`] = `
+<div>
+  <Async
+    autoload={true}
+    cache={Object {}}
+    ignoreAccents={true}
+    ignoreCase={true}
+    labelKey="labelKey"
+    loadOptions={[Function]}
+    loadingPlaceholder="Loading..."
+    multi={true}
+    onChange={[Function]}
+    options={Array []}
+    searchPromptText="Type to search"
+    value={1}
+    valueKey="valueKey"
+  />
+  <div
+    className="alert alert-danger m-t-1"
+    role="alert"
+  >
+    error
+  </div>
+</div>
+`;

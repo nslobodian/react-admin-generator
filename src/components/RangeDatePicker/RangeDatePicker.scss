@@ -1,0 +1,39 @@
+.DatetimeRangePicker {
+  cursor: pointer;
+  position: relative;
+  border-width: 2px;
+  border-color: black;
+
+
+  .SVGWrapper {
+    position: absolute;
+    top: 0;
+
+    .FaClose {
+      display: none;
+      z-index: 2;
+    }
+
+    &:hover {
+      .FaClose {
+        display: inline;
+      }
+
+      .FaClockO {
+        display: none;
+      }
+    }
+  }
+
+  .ButtonWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color: #777;
+  }
+}
+
+.disabled {
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}

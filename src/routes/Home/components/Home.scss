@@ -1,0 +1,22 @@
+.Home {
+  .blackSquare {
+    margin: 150px auto;
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    line-height: 400px;
+
+    .text {
+      &:hover {
+        transition-property: color, background-color;
+        transition-duration: 5s;
+        color: #fff;
+        background-color: #000;
+      }
+    }
+  }
+}
+

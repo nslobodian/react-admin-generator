@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Routes) Home Should render Home properly 1`] = `
+<div
+  className="Home"
+>
+  <h4>
+    Home
+  </h4>
+</div>
+`;

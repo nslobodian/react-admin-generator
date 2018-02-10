@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) Dropdown Should render Dropdown properly 1`] = `
+<div
+  className="btn-group btn-block Dropdown"
+>
+  <div
+    className="dropdown"
+  >
+    <button
+      aria-expanded={false}
+      aria-haspopup="true"
+      className="btn btn-TYPE dropdown-toggle btn-block"
+      data-toggle="dropdown"
+      onClick={[Function]}
+      type="button"
+    >
+      <div
+        className="pull-left"
+      >
+        title
+      </div>
+      <div
+        className="pull-right caret caret"
+      />
+    </button>
+    <ul
+      className="dropdown-menu btn-block"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`(Components) Dropdown Should render Dropdown properly without some attributes 1`] = `
+<div
+  className="btn-group btn-block Dropdown"
+>
+  <div
+    className="dropdown"
+  >
+    <button
+      aria-expanded={false}
+      aria-haspopup="true"
+      className="btn btn-TYPE dropdown-toggle btn-block"
+      data-toggle="dropdown"
+      onClick={[Function]}
+      type="button"
+    >
+      <div
+        className="pull-left"
+      >
+        title
+      </div>
+      <div
+        className="pull-right caret caret"
+      />
+    </button>
+    <ul
+      className="dropdown-menu btn-block"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) InputField Should render component properly 1`] = `
+<div
+  className="relative"
+>
+  <div
+    className="text-muted"
+  >
+    label
+  </div>
+  <textarea
+    className="form-control"
+    onChange={[Function]}
+    value={1}
+  />
+  <div
+    className="asyncValidating"
+  />
+</div>
+`;
+
+exports[`(Components) InputField Should render component properly testing with error 1`] = `
+<div
+  className=""
+>
+  <div
+    className="text-muted"
+  >
+    label
+  </div>
+  <input
+    className="form-control"
+    onChange={[Function]}
+    type="text"
+    value={1}
+  />
+  <div
+    className="alert alert-danger m-t-1"
+    role="alert"
+  >
+    error
+  </div>
+</div>
+`;
+
+exports[`(Components) InputField Should render component properly without textarea 1`] = `
+<div
+  className="relative"
+>
+  <div
+    className="text-muted"
+  >
+    label
+  </div>
+  <input
+    className="form-control"
+    onChange={[Function]}
+    type="text"
+    value={1}
+  />
+  <div
+    className="asyncValidating"
+  />
+</div>
+`;

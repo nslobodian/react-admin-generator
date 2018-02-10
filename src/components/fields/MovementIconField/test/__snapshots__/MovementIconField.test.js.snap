@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Components) MovementIconField No notifications 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className="text-muted"
+    htmlFor="icon"
+  >
+    Icon
+  </label>
+  <Field
+    component={[Function]}
+    labelKey="pictureUrl"
+    name="icon"
+    optionRenderer={[Function]}
+    options={true}
+    placeholder="Choose An Icon"
+    valueKey="iconId"
+    valueRenderer={[Function]}
+  />
+</div>
+`;
+
+exports[`(Components) MovementIconField Should render component properly 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className="text-muted"
+    htmlFor="icon"
+  >
+    Icon
+  </label>
+  <Field
+    component={[Function]}
+    labelKey="title"
+    name="icon"
+    optionRenderer={null}
+    options={true}
+    placeholder="Choose An Icon"
+    valueKey="iconId"
+    valueRenderer={null}
+  />
+</div>
+`;

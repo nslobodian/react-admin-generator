@@ -1,0 +1,9 @@
+{
+  "env": "development",
+  "site": {
+    "domain": "//example.com"
+  },
+  "api": {
+    "baseUrl": "//localhost:3750/v1/"
+  }
+}

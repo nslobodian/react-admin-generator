@@ -1,0 +1,34 @@
+@import '~styles/shared';
+
+.Header {
+  height: 70px;
+  border: none;
+  border-radius: 0;
+
+  background-color: $dark-blue;
+
+  .navbarBrand {
+    float: left;
+    height: 50px;
+    padding-left: 10px;
+
+    .Logo {
+      display: block;
+
+      svg {
+        width: 100%;
+        height: 70px;
+        fill: #fff;
+      }
+    }
+  }
+
+  .logoutButton {
+    @include button-variant(#fff, $pink, $pink);
+    @include button-size(8px, 12px, 14px, 24px, 5px);
+  }
+
+  .navbarRight {
+    margin-right: 0;
+  }
+}
